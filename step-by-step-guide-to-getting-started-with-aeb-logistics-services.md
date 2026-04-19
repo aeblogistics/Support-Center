@@ -15,25 +15,21 @@ author:
 
 Quick Start Guide to AEB Logistics Services
 
-![](support-center/male-22.svg)
-
-Alan Fan
-
-Last Update 7 days ago
-
 To begin utilizing the services offered by AEB Logistics, please follow these steps:
 
-Request a Quote
+## Request a Quote
 
-Accept the Quote
+Visit the following link for instructions on how to request a quote: [AEB Dashboard Quote Request](https://support.aeblogistics.com/article/aeb-dashboard-quote-request).
+
+## Accept the Quote
 
 Once your account manager sends you the quote through your AEB portal, you will receive an email notification. If you are satisfied with the quote, click the "Accept Quote" button located at the top-left corner of the quote page. AEB Logistics will automatically generate an invoice for your payment and order confirmation.
 
-Make the Payment
+## Make the Payment
 
 The invoice will be sent to you automatically through your AEB portal, and you will receive an email notification. You can contact your account manager to discuss the preferred payment method, whether it's PayPal (with a 5% fee) or bank transfer.
 
-Booking
+## Booking
 
 Once payment is received, a shipment will be available in your AEB portal. The portal offers various useful features, including shipment details, tracking, file uploading, and conversations. AEB Logistics will stay in contact with the supplier and keep you informed about any progress.
 
