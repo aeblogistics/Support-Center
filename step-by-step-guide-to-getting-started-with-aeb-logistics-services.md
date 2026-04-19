@@ -5,7 +5,7 @@ source: https://support.aeblogistics.com/article/step-by-step-guide-to-getting-s
 author: 
 ---
 
-# Support Center | AEB Logistics |
+# Step-by-Step Guide to Getting Started with AEB Logistics' Services
 
 > ## Excerpt
 > Get started with AEB Logistics: Request, Accept Quote, Make Payment, and Book Shipment. Account manager support available.
