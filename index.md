@@ -5,9 +5,6 @@ title: Support Center | AEB Logistics
 
 # Welcome to AEB Logistics Support Center
 
-Expert guidance for customs clearance, import/export procedures,
-and freight forwarding services.
-
 ---
 
 ## 📚 All Articles
