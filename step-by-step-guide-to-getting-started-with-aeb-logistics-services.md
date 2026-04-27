@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Step-by-Step Guide to Getting Started with AEB Logistics' Services
 description: Get started with AEB Logistics: Request, Accept Quote, Make Payment, and Book Shipment. Account manager support available.
 created: 2026-04-19T11:01:36 (UTC +08:00)
 tags: []
