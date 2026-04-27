@@ -1,3 +1,5 @@
-title: AEB Logistics Blog
-description: Support Center
-theme: minima
+title: Support Center | AEB Logistics
+description: Welcome to AEB Logistics Support Center. Find answers about customs clearance, import/export procedures, shipping, tariffs, and freight forwarding services.
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
