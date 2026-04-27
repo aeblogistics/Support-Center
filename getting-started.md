@@ -5,6 +5,7 @@ description: Get started with AEB Logistics - Request, Accept Quote, Make Paymen
 date: 2026-04-19
 author: AEB Logistics
 tags: [getting-started, guide]
+category: Guide
 ---
 
 # Step-by-Step Guide to Getting Started with AEB Logistics' Services
