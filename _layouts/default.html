@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* 顶部导航 */
+        header {
+            background: linear-gradient(135deg, #003087, #0055cc);
+            color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .logo span { color: #e8a020; }
+
+        nav a {
+            color: #fff;
+            margin-left: 24px;
+            font-size: 14px;
+            text-decoration: none;
+            opacity: 0.85;
+        }
+
+        nav a:hover { opacity: 1; }
+
+        /* 内容区域 */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+            padding: 40px;
+        }
+
+        main h1 {
+            font-size: 28px;
+            color: #003087;
+            margin-bottom: 16px;
+        }
+
+        main h2 {
+            font-size: 22px;
+            color: #003087;
+            margin: 28px 0 12px;
+            border-bottom: 2px solid #f0f4ff;
+            padding-bottom: 8px;
+        }
+
+        main p {
+            margin-bottom: 16px;
+            color: #555;
+        }
+
+        main ul {
+            margin: 12px 0 16px 20px;
+        }
+
+        main ul li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        main a {
+            color: #0055cc;
+            text-decoration: none;
+        }
+
+        main a:hover {
+            text-decoration: underline;
+        }
+
+        main hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 28px 0;
+        }
+
+        main blockquote {
+            background: #f0f4ff;
+            border-left: 4px solid #003087;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            color: #555;
+            margin: 16px 0;
+        }
+
+        main table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+
+        main th {
+            background: #003087;
+            color: #fff;
+            padding: 10px 16px;
+            text-align: left;
+        }
+
+        main td {
+            padding: 10px 16px;
+            border-bottom: 1px solid #eee;
+        }
+
+        main tr:hover td {
+            background: #f5f7fa;
+        }
+
+        /* 页脚 */
+        footer {
+            background: #111;
+            color: #888;
+            text-align: center;
+            padding: 24px;
+            font-size: 13px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">AEB <span>Logistics</span></div>
+        <nav>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
+            <a href="https://support.aeblogistics.com" target="_blank">Support</a>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        &copy; 2026 AEB Logistics. All rights reserved.
+    </footer>
+
+</body>
+</html>
