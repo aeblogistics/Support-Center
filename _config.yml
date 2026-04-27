@@ -2,6 +2,7 @@ title: Support Center | AEB Logistics
 description: Welcome to AEB Logistics Support Center.
 baseurl: "/Support-Center"
 url: "https://aeblogistics.github.io"
-remote_theme: remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
+markdown: kramdown
 plugins:
   - jekyll-remote-theme
